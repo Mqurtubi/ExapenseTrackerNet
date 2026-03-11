@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\qurtu\\OneDrive\\Dokumen\\backend\\ExpenseTrackerNet\\ExpenseTrackerNet\\ExpenseTrackerNet.csproj": {}
+    "D:\\backend\\ExapenseTrackerNet\\ExpenseTrackerNet\\ExpenseTrackerNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\qurtu\\OneDrive\\Dokumen\\backend\\ExpenseTrackerNet\\ExpenseTrackerNet\\ExpenseTrackerNet.csproj": {
+    "D:\\backend\\ExapenseTrackerNet\\ExpenseTrackerNet\\ExpenseTrackerNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\qurtu\\OneDrive\\Dokumen\\backend\\ExpenseTrackerNet\\ExpenseTrackerNet\\ExpenseTrackerNet.csproj",
+        "projectUniqueName": "D:\\backend\\ExapenseTrackerNet\\ExpenseTrackerNet\\ExpenseTrackerNet.csproj",
         "projectName": "ExpenseTrackerNet",
-        "projectPath": "C:\\Users\\qurtu\\OneDrive\\Dokumen\\backend\\ExpenseTrackerNet\\ExpenseTrackerNet\\ExpenseTrackerNet.csproj",
-        "packagesPath": "C:\\Users\\qurtu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\qurtu\\OneDrive\\Dokumen\\backend\\ExpenseTrackerNet\\ExpenseTrackerNet\\obj\\",
+        "projectPath": "D:\\backend\\ExapenseTrackerNet\\ExpenseTrackerNet\\ExpenseTrackerNet.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\backend\\ExapenseTrackerNet\\ExpenseTrackerNet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\qurtu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,6 +50,28 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.24, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.24, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.24, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.24, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
